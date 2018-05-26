@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Homepage"
+title                    : "Eduardo Rozo"
 title_separator          : "-"
-name                     : "Name1 Name2"
-description              : "Name's academic homepage"
+name                     : "Eduardo Rozo"
+description              : "Eduardo Rozo's homepage"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : erozo/erozo.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -100,12 +100,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Name1 Name2"
+  name             : "Eduardo Rozo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master of CSS"
-  location         : 
-  employer         : 
-  email            : "email@email.com"
+  bio              : "erozo bio"
+  location         : Tucson, AZ
+  employer         : University of Arizona
+  email            : "erozo@email.arizona.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        : 
@@ -281,12 +281,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  code:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -312,26 +306,5 @@ defaults:
     values:
       layout: single-publication
       author_profile: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: single-talk
-      author_profile: true
-  # _code
-  - scope:
-      path: ""
-      type: code
-    values:
-      layout: single-code
-      author_profile: true
-
-
-
-
-
-
-
 
 
